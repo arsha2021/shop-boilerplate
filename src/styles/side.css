@@ -1,0 +1,39 @@
+.side-container {
+  position: sticky;
+  float: right;
+  top: 70px;
+  writing-mode: vertical-lr;
+  right: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+.side-vertical-text {
+  text-anchor: middle;
+  text-transform: uppercase;
+  transform: rotate(180deg);
+  color: #a4a4a4;
+  font-family: Poppins-Light;
+  font-size: 12px;
+  letter-spacing: 7px;
+}
+.side-social-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.side-social-menu-item {
+  display: block;
+  margin: 20px 0;
+}
+.side-social-menu-link {
+}
+.side-social-menu-img {
+}

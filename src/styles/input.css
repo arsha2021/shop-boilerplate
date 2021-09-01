@@ -1,0 +1,45 @@
+.simple-input {
+  background: #e5e5e5;
+  border: none;
+  padding: 20px 50px;
+  width: 25%;
+  outline: none;
+}
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-submit-button {
+  background: #89b8e5;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-submit-button img {
+  width: 20px;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #333;
+  font-family: Poppins-Bold;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #333;
+  font-family: Poppins-Bold;
+}
+
+::placeholder {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #333;
+  font-family: Poppins-Bold;
+}

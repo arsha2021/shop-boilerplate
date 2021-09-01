@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.logo {
+}
+.logo-container {
+}
+.header-menu-container {
+  display: flex;
+  flex: 1;
+}
+.menu-ul {
+  display: flex;
+  align-items: center;
+  flex: 0.5 0 60%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.menu-li {
+  display: block;
+}
+.menu-link {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: Poppins-Bold;
+  font-size: 13px;
+}

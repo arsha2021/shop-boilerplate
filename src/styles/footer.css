@@ -1,0 +1,27 @@
+.footer {
+}
+.footer-logo {
+  text-align: center;
+}
+.footer-menu-container {
+}
+.footer-menu-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin: 60px 0;
+  padding: 0;
+}
+.footer-menu-li {
+  display: block;
+  margin: 0 20px;
+}
+.footer-menu-link {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins-Medium";
+}

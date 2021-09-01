@@ -1,0 +1,17 @@
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 140px auto 40px auto;
+  text-align: center;
+}
+.quote-message {
+}
+.quote-author {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Poppins-Regular;
+  
+}

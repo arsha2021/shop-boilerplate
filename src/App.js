@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/Home";
+import Header from "./components/Header";
+import Side from "./components/Side";
+import Quote from "./components/Quote";
+import LineSeperator from "./components/LineSeperator";
+import SingleBlog from "./components/SingleBlog";
+import Shop from "./components/Shop";
+import Camps from "./components/Camps";
+import Join from "./components/Join";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Row">
+        <Side id={1} />
+        <div className="Container">
+          <Header />
+          <Home />
+          <Quote />
+          <LineSeperator />
+          <SingleBlog />
+        </div>
+      </div>
+      <div>
+        <Shop />
+      </div>
+      <div>
+        <div className="Container">
+          <Camps />
+        </div>
+      </div>
+      <div>
+        <Join />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;

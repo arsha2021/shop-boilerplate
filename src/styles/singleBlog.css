@@ -1,0 +1,38 @@
+.single-blog-col {
+  width: 50%;
+  display: inline-block;
+}
+.single-blog-container {
+  position: relative;
+}
+.single-blog-image {
+  width: 100%;
+  min-height: 350px;
+  border-radius: 2px;
+}
+.single-blog-text {
+  color: #4a4a4a;
+}
+.single-blog-box {
+  width: 75%;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+.single-blog-video-cover {
+  position: absolute;
+  right: 0;
+  width: 55%;
+  top: 50px;
+  cursor: pointer;
+}
+.single-blog-video-img {
+  width: 100%;
+  box-shadow: 0 0 40px 0 grey;
+}
+.single-blog-video-play-button {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+}

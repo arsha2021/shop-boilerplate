@@ -1,0 +1,106 @@
+.shop-container {
+  background-image: url("../assets/images/bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shop-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 60px 0;
+}
+.shop-header-sub-title {
+  color: #97c7f5;
+  text-transform: uppercase;
+  font-family: Poppins-Bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.shop-header-title {
+  font-size: 2.3em;
+}
+.shop-card-container {
+  display: flex;
+  transition: all 650ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.shop-card {
+  width: calc(33.333% - 40px);
+  min-width: 380px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  margin: 0 20px;
+}
+.shop-col {
+  width: 50%;
+}
+.shop-col-3 {
+  width: calc(66% - 10px);
+}
+.shop-col-2 {
+  width: 33%;
+}
+.shop-image {
+  width: 100%;
+}
+.shop-category {
+  color: darkgray;
+  margin: 0;
+}
+.shop-model {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+.shop-price-box {
+  padding-left: 15%;
+}
+.shop-price {
+  color: #ee7489;
+  font-family: "Poppins-Bold";
+  margin: 0;
+  margin-top: 30px;
+}
+.padding-left-10 {
+  padding-left: 10px;
+}
+.board-background {
+  position: absolute;
+  width: 57%;
+  height: 75%;
+  background: beige;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+}
+.swiper-container {
+  width: 85vw;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.shop-next-arrow {
+  position: absolute;
+  right: 25px;
+  top: calc(50% - 16px);
+  cursor: pointer;
+}
+.shop-prev-arrow {
+  position: absolute;
+  left: 25px;
+  top: calc(50% - 16px);
+  cursor: pointer;
+}
+.shop-row {
+  position: relative;
+}
+.shop-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh 0;
+}

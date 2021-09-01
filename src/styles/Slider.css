@@ -1,0 +1,132 @@
+.slider-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+.slider-subtitle {
+  text-transform: uppercase;
+  color: #8dc2f4;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+.slider-title {
+  inline-size: 700px;
+  text-transform: capitalize;
+  font-size: 4em;
+  margin: 0;
+}
+.slider-description {
+  inline-size: 400px;
+  color: gray;
+}
+.slider-image {
+  width: 75%;
+  min-height: 500px;
+  object-fit: cover;
+  box-shadow: -2px 0px 30px 10px #d7d7d7a6;
+  border-radius: 3px;
+}
+.skeleton {
+  animation: skeleton-loading 2s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+.slider-text-box {
+  position: absolute;
+  left: 0;
+}
+
+.fade-in-slider {
+  animation: slider-in-animation 1s linear;
+}
+.fade-out-slider {
+  animation: slider-out-animation 1s linear;
+}
+
+@keyframes slider-out-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slider-in-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.show {
+  display: flex;
+}
+.hide {
+  display: none;
+}
+
+.slider {
+  position: relative;
+}
+.slider-counter {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.slider-back-navigator {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  transform: translate(50%, 50%);
+  background: #ffffffa6;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 0 #c4c4c4;
+  border-radius: 5px;
+}
+.slider-back-navigator,
+.slider-next-navigator {
+  transition: all 300ms ease-in-out;
+}
+.slider-back-navigator:hover,
+.slider-next-navigator:hover {
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0 0 10px 0 #a7a7a7;
+}
+.slider-next-navigator {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  transform: translate(50%, 50%);
+  background: #ffffffa6;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 0 #c4c4c4;
+  border-radius: 5px;
+}
